@@ -2,6 +2,7 @@ import React from 'react'
 import Clip from './Clip'
 
 const Hero = ({ heroapi: { title, subtitle, img, btntext, videos, sociallinks } } ) => {
+ 
     return (<div className=' relative'>
       <div className='clip-path px-5 sm:px-0 py-5 pt-[100px]  z-10 pb-[220px] md:pb-[500px] lg:pb-[250px] bg-theme transitions-theme flex flex-col items-center justify-center'>
       <h1 className='text-slate-200 drop-shadow-lg  md:text-5xl sm:text-4xl text-3xl  font-bold '>{title}</h1>

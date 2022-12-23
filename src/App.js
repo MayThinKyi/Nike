@@ -11,7 +11,7 @@ import './index.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App relative">
       <Navbar  />
       <Hero heroapi={heroapi} />
       <PopularSales popularsales={popularsales} />
